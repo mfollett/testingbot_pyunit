@@ -6,7 +6,7 @@ setup(name='Testingbot',
       description = "Python selenium package to be used with TestingBot.com's Selenium Grid",
       url = "http://www.testingbot.com",
       packages=find_packages(),
-      install_requires= ['pyunit', 'selenium'],
+      install_requires= ['selenium'],
       entry_points={
         'console_scripts': [
            'testingbot = testingbot.install:install' ]
